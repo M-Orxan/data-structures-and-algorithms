@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataStructuresAndAlgorithms.DataStructures;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,9 +11,6 @@ namespace DataStructuresAndAlgorithms
     {
         static void Main(string[] args)
         {
-
-
-
         }
     }
 }
