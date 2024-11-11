@@ -11,6 +11,19 @@ namespace DataStructuresAndAlgorithms
     {
         static void Main(string[] args)
         {
+          
+            DataStructures.Queue<int> queue = new DataStructures.Queue<int>();
+
+            queue.Enqueue(10);
+            queue.Enqueue(20);
+            int count=queue.Count;
+            Console.WriteLine(count);
+            queue.Clear();
+            count = queue.Count;
+            Console.WriteLine(count);
+
+            queue.Peek();
+
         }
     }
 }
