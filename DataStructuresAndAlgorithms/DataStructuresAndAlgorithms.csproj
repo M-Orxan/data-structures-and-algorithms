@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\SearchingAlgorithms\BinarySearch.cs" />
     <Compile Include="Algorithms\SearchingAlgorithms\LinearSearch.cs" />
     <Compile Include="Algorithms\SortingAlgorithms\BubbleSort.cs" />
     <Compile Include="DataStructures\LinkedList\LinkedList.cs" />
